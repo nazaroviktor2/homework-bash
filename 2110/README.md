@@ -3,3 +3,4 @@
 ## chmod +x auth.sh
 ## sudo apt-get update
 ## sudo apt-get install fswebcam
+## pip install aiogram
