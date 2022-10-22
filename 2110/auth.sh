@@ -51,7 +51,7 @@ else
               mkdir $PHOTOS
             fi
             path=$login-"$(date)"
-            fswebcam -r 640x480 --jpeg 85 -D 1 ./photos/"$path".jpg ./photos/last.jpg
+            fswebcam -r 1280x720 -D -S ./photos/"$path".jpg ./photos/last.jpg
             python3 ./.send.py 
             auth=2
           fi
